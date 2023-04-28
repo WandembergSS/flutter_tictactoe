@@ -1,8 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9de6e62d-d81a-4742-a841-77b5f067743a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/controllers/game_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/game_controller.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/theme_app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/theme_app.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/core/winner_rules.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/winner_rules.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/enums/player_type.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/enums/player_type.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/enums/winner_type.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/enums/winner_type.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/board_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/board_tile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pages/game_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/game_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/custom_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_dialog.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2P2XzE5WPRJ7NKwPrRYxKKEnR6w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/lib/dart",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9de6e62d-d81a-4742-a841-77b5f067743a" name="Changes" comment="" />
+      <created>1682656410934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682656410934</updated>
+    </task>
+    <servers />
+  </component>
 </project>
