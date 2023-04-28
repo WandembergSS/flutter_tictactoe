@@ -11,6 +11,5 @@ class BoardTile {
         this.symbol = '',
         this.color = Colors.black26,
         this.enable = true,
-  }
-      );
+      });
 }

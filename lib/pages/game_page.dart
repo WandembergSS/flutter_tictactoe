@@ -11,7 +11,7 @@ class GamePage extends StatefulWidget {
 }
 
 class _GamePageState extends State<GamePage> {
-  final _controller GameController();
+  final _controller = GameController();
 
   @override
   Widget build(BuildContext context) {
@@ -23,12 +23,12 @@ class _GamePageState extends State<GamePage> {
 
   _buildAppBar() {
     return AppBar(
-    title: Text(GAME_TITLE),
-    centerTitle: true,
-   );
- }
+      title: Text(GAME_TITLE),
+      centerTitle: true,
+    );
+  }
 
-  _buildBody() { ],
+  _buildBody() {
     return Container(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -43,19 +43,18 @@ class _GamePageState extends State<GamePage> {
   }
 
   _buildResetButton() {
-    return RaisedButton(
-      padding: const EdgeInsets.all(20),
-      child: Text (RESET_BUTTON_LABEL),
+    return ElevatedButton(
       onPressed: _onResetGame,
+      child: const Text(RESET_BUTTON_LABEL),
     );
   }
 
   _buildBoard() {
     return Expanded(
       child: GridView.builder(
-        padding: const EdgeInsets.all(10), ),
+        padding: const EdgeInsets.all(10),
         itemCount: BOARD_SIZE,
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 3,
           mainAxisSpacing: 10,
           crossAxisSpacing: 10,
@@ -73,9 +72,11 @@ class _GamePageState extends State<GamePage> {
         child: Center(
           child: Text(
             _controller.tiles[index].symbol,
-            style: TextStyle( ),
-            fontSize: 72.0,
-            color: Colors.white,
+            style: TextStyle(
+              fontSize: 72.0,
+              color: Colors.white,
+            ),
+          ),
         ),
       ),
     );
@@ -84,22 +85,22 @@ class _GamePageState extends State<GamePage> {
   _onResetGame() {
     setState(() {
       _controller.reset();
-   });
+    });
   }
 
   _onMarkTile(index) {
-    if (!_controller.tiles [index].enable) return;
+    if (!_controller.tiles[index].enable) return;
 
     setState(() {
-    _controller.markBoardTileByIndex(index);
+      _controller.markBoardTileByIndex(index);
     });
 
     _checkWinner();
   }
 
   _checkWinner() {
-    var winner = _controller.checkWinner(); =
-    if (winner WinnerType.none) {
+    var winner = _controller.checkWinner();
+    if (winner == WinnerType.none) {
       if (!_controller.hasMoves) {
         _showTiedDialog();
       } else if (_controller.isSinglePlayer &&
@@ -107,13 +108,12 @@ class _GamePageState extends State<GamePage> {
         final index = _controller.automaticMove();
         _onMarkTile(index);
       }
-      } else {
-        String symbol =
-          winner WinnerType.player1 ? PLAYER1_SYMBOL: PLAYER2_SYMBOL; ==
-        _showWinnerDialog(symbol);
-      }
+    } else {
+      String symbol =
+      winner == WinnerType.player1 ? PLAYER1_SYMBOL : PLAYER2_SYMBOL;
+      _showWinnerDialog(symbol);
+    }
   }
-
 
   _showWinnerDialog(String symbol) {
     showDialog(
@@ -123,7 +123,7 @@ class _GamePageState extends State<GamePage> {
         return CustomDialog(
           title: WIN_TITLE.replaceAll('[SYMBOL]', symbol),
           message: DIALOG_MESSAGE,
-          onPressed: onResetGame,
+          onPressed: _onResetGame,
         );
       },
     );
@@ -137,8 +137,8 @@ class _GamePageState extends State<GamePage> {
         return CustomDialog(
           title: TIED_TITLE,
           message: DIALOG_MESSAGE,
-          onPressed: _onResetGame, )
-        ;
+          onPressed: _onResetGame,
+        );
       },
     );
   }
@@ -150,7 +150,7 @@ class _GamePageState extends State<GamePage> {
       value: _controller.isSinglePlayer,
       onChanged: (value) {
         setState(() {
-          _controller.isSinglePlayer value;
+          _controller.isSinglePlayer = value;
         });
       },
     );

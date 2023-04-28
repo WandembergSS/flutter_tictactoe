@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9de6e62d-d81a-4742-a841-77b5f067743a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/flutter_tictactoe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flutter_tictactoe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/controllers/game_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/controllers/game_controller.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/core/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/constants.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/core/theme_app.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/theme_app.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/core/winner_rules.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/core/winner_rules.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/enums/player_type.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/enums/player_type.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/enums/winner_type.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/enums/winner_type.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/models/board_tile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/board_tile.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pages/game_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pages/game_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/widgets/custom_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_dialog.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +44,15 @@
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "/lib/dart",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "dart.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>

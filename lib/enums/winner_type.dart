@@ -1,1 +1,1 @@
-enum WinnerType {player1, player2}
+enum WinnerType { none, player1, player2 }

@@ -1,10 +1,10 @@
-import 'package: flutter/material.dart';
+import 'package:flutter/material.dart';
 
-final themeApp ThemeData(
-  visualDensity: VisualDensity. adaptivePlatformDensity,
+final themeApp = ThemeData(
+  visualDensity: VisualDensity.adaptivePlatformDensity,
   primarySwatch: Colors.red,
   buttonTheme: ButtonThemeData(
     height: 52,
-    text Theme: ButtonTextTheme.primary,
+    textTheme: ButtonTextTheme.primary,
   ),
 );
